@@ -230,7 +230,7 @@ const state = {
 
   // Check if the win condition is met
   function checkWin() {
-    if (state.bucket12 === 6 || state.bucket8 === 6 || state.bucket5 === 6) {
+    if (state.bucket8 === 6) {
       setTimeout(() => {
         showWinScreen();
       }, 1000);
